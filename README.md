@@ -21,9 +21,10 @@ This script is old and only works when you are in the OpenVPN network (shibbolet
 
 ### Instructions:
 1. You have to change the default savePath variable in python first
-2. Search a book on Thieme and find your id (for example 123456 is the id of https://eref.thieme.de/ebooks/123456)
-3. enter the id
-4. enter a foldername (if it doesn't exist, it will be created)
-5. Choose if you wan't to merge all chapter-PDFs 
-  + **CAVE: This will sometimes create PDFs with duplicate pages, because some PDFs have overlap**
-6. Enjoy your ebook!
+2. Search a book on Thieme and find your id 
+    + for example 123456 is the id of https://eref.thieme.de/ebooks/123456)
+4. enter the id
+5. enter a foldername (if it doesn't exist, it will be created)
+6. Choose if you wan't to merge all chapter-PDFs 
+    + **CAVE: This will sometimes create PDFs with duplicate pages, because some PDFs have overlap**
+7. Enjoy your ebook!
