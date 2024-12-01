@@ -4,7 +4,13 @@ Some useful scripts for special websites while studying medicine at [Charité - 
 ## PJ Portal Change Notifier `lambda_function_pj_portal.py`
 **LAST CHECKED TO SEE IF THIS WAS WORKING: November 30th, 2024**
 
-This is an [AWS Lambda](https://aws.amazon.com/lambda/) function to check the availability of free PJ elective slots in the [PJ-Portal](https://www.pj-portal.de/).
+This is an [AWS Lambda](https://aws.amazon.com/lambda/) function to check the availability of free PJ elective slots in the [PJ-Portal](https://www.pj-portal.de/). 
+
+If it detects any changes, it will send you an email with the updated slots, which will look like this (example for Berlin, Surgery):
+
+![Email for updated PJ Portal slots](https://github.com/user-attachments/assets/5adbf40f-77b6-4188-b745-08849cce2d76)
+
+Available slots are green, updated slots are yellow and other slots are red.
 
 You can read more about this script and how to setup your own AWS account for this task in my [blog post](https://www.pedramramezani.de/posts/aws-lambda-scraper/).
 
